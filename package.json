@@ -7,7 +7,7 @@
     "start": "node build/index.js",
     "build": "tsc",
     "dev": "tsc-watch --onSuccess \"node ./build/index.js\"",
-    "clean": "rm -rf package-lock.json node_modules"
+    "clean": "rm -rf package-lock.json node_modules && npm install"
   },
   "keywords": [],
   "author": "kevin",
